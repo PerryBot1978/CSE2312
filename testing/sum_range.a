@@ -1,3 +1,6 @@
+.global _start
+
+_start:
 main:
 	ldr R0, =memory_size
 	str SP, [R0]
